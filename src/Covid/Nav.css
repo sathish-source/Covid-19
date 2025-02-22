@@ -1,0 +1,40 @@
+
+#icon {
+    width: 20rem;
+    display: flex;
+}
+#con{
+    background-color:#647589;
+
+}
+
+#links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#link{
+    color: rgb(35 36 38);
+    text-decoration: none;
+    font-size:1.1rem;
+}
+svg{
+    color: aliceblue;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+
+#call{
+    background-color: rgb(218, 25, 25);
+    padding: 30px;
+    height: 100px;
+    margin-right: 36px;
+   
+}
+
+#call:hover{
+    transition: -1s;
+    background-color: rgb(25, 25, 85);
+
+}
