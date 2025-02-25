@@ -1,11 +1,11 @@
 
-import shield from './about-bg-01.jpg'
-import Image3 from './about-bg-03.jpg'
-import Image4 from './about-bg-04.jpg'
-import Image5 from './about-bg-05.jpg'
-import Image6 from './about-bg-06.jpg'
-import Image7 from './about-bg-07.jpg'
-import Image9 from './about-bg-09.jpg'
+import shield from './imges/about-bg-01.jpg'
+import Image3 from './imges/about-bg-03.jpg'
+import Image4 from './imges/about-bg-04.jpg'
+import Image5 from './imges/about-bg-05.jpg'
+import Image6 from './imges/about-bg-06.jpg'
+import Image7 from './imges/about-bg-07.jpg'
+import Image9 from './imges/about-bg-09.jpg'
 
 const Covid = () => {
 

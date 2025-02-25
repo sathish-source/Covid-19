@@ -3,6 +3,7 @@
     width: 20rem;
     display: flex;
 }
+
 #con{
     background-color:#647589;
 
@@ -29,7 +30,8 @@ svg{
     background-color: rgb(218, 25, 25);
     padding: 30px;
     height: 100px;
-    margin-right: 36px;
+    width:120px ;
+
    
 }
 
@@ -37,4 +39,13 @@ svg{
     transition: -1s;
     background-color: rgb(25, 25, 85);
 
+}
+
+.z-index-1{
+    margin-top: -60px ;
+}
+
+.icon-logo{
+    z-index: -1;
+    margin-top:40px ;
 }

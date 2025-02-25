@@ -1,4 +1,4 @@
-import contImage from './Contacts.png'
+import contImage from './imges/Contacts.png'
 
 const Contact = () => {
     return (

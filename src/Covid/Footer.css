@@ -1,0 +1,39 @@
+#foot-1{
+    height: 19rem;
+    background:  #f8263b;
+    width: 44rem;
+    color:white;
+    position: relative;
+    top: 280px;
+}
+#input{
+    width: 25rem;
+    border: none;
+}
+
+#icon-to-footer{
+    width: 20rem;
+    position:relative;
+    top: 340px;
+    margin-top: 15rem;
+}
+
+#conty{
+    height:45rem ;
+    background-color: whitesmoke;
+    padding-right: 9rem;
+
+}
+
+#details{
+    margin-top: 18rem;
+    color: rgb(15, 9, 36);
+}
+
+.logo{
+    width:5rem;
+}
+
+.align{
+    text-align-last: end;
+}

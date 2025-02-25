@@ -1,9 +1,10 @@
 import { BrowserRouter,  Route, Routes,  } from 'react-router-dom'
 import './App.css'
 import CovidHome from './Covid/Covidhome';
-import Covid from './Covid/covid';
+import About from './Covid/About';
 import Nav from './Covid/Nav';
 import Contact from './Covid/Contact';
+import Footer from './Covid/Footer';
 
 function App() {
 
@@ -15,10 +16,11 @@ function App() {
       <BrowserRouter>
           <Nav/>
           <Routes>
-          <Route path='/' element={<Covid/> }/>
+          <Route path='/' element={<About/> }/>
           <Route path='/Home' element={ < CovidHome/> }/>
           <Route path='/Contact' element={<Contact/>}/>
           </Routes>
+          <Footer/>
       </BrowserRouter>
 
     </div>
