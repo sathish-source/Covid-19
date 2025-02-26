@@ -5,6 +5,9 @@ import About from './Covid/About';
 import Nav from './Covid/Nav';
 import Contact from './Covid/Contact';
 import Footer from './Covid/Footer';
+import FAQ from './Covid/FAQ';
+import General from './Covid/GeneralInformation';
+import News from './Covid/News';
 
 function App() {
 
@@ -16,9 +19,12 @@ function App() {
       <BrowserRouter>
           <Nav/>
           <Routes>
-          <Route path='/' element={<About/> }/>
-          <Route path='/Home' element={ < CovidHome/> }/>
+          <Route path='/' element={ < CovidHome/> }/>
+          <Route path='/About' element={<About/> }/>
           <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/FAQ' element={<FAQ/>}/>
+          <Route path='/GeneralInformation' element={<General/>}/>
+          <Route path='/News' element={<News/>}/>
           </Routes>
           <Footer/>
       </BrowserRouter>

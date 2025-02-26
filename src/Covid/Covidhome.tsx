@@ -10,6 +10,10 @@ import Doctor4 from './imges/Docter4.jpg'
 import Doctor5 from './imges/Docter5.jpg'
 import Doctor6 from './imges/Docter6.jpg'
 import CallBack from './imges/callback.jpg'
+import Card1 from './imges/card-1.jpg'
+import Card2 from './imges/Card2.jpg'
+import Card3 from './imges/Card3.jpg'
+
 
 
 const CovidHome = () => {
@@ -93,11 +97,32 @@ const CovidHome = () => {
                         </svg>CallBack
                     </a>
                     </div>
-                    <div>
+                    <div  className='align-self-center'>
                     <img src={CallBack} alt="CallBack"  />
                     </div>
-
+                </div>
+                    <h1 className='ms-5 p-3'>News</h1>
+                <div className='d-flex ms-5' >
+                    <div className='sec-last card col-4 text-muted p-3 m-3 '>
+                        <img src={Card1} alt="card1" />
+                        <p className='p-3 h6'>November 24, 2020</p>
+                        <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
+                        <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                    </div>
                     
+                    <div className=' sec-last card col-4 text-muted p-3 m-3'>
+                        <img src={Card2} alt="card2" />
+                        <p className='p-3 h6'>November 24, 2020</p>
+                        <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
+                        <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                    </div>
+                    <div className=' sec-last card col-4 text-muted p-3 m-3'>
+                        <img src={Card3} alt="card3" />
+                        <p className='p-3 h6'>November 24, 2020</p>
+                        <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
+                        <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                    </div>
+
                 </div>
             </div>
         </div>
