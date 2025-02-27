@@ -52,6 +52,10 @@ const CovidHome = () => {
                     <div className='col-5  align-content-center text-muted'>
                         <h1 className='text-dark mb-4'>Travel Advice</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus nulla, sagittis a tempus at, feugiat vel lectus. Cras aliquam augue eget lacus euismod, vel mollis est eleifend. Nulla eros justo, sagittis at orci at, commodo condimentum ex.</p>
+                        <div>
+                        <h4 className='read-link '>Read More</h4>
+                          
+                        </div>
 
                     </div>
                 </div>
@@ -60,6 +64,10 @@ const CovidHome = () => {
                     <div className='col-5  align-content-center text-muted'>
                         <h1 className='text-dark mb-4' >Social Distancing</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus nulla, sagittis a tempus at, feugiat vel lectus. Cras aliquam augue eget lacus euismod, vel mollis est eleifend. Nulla eros justo, sagittis at orci at, commodo condimentum ex.</p>
+                        <div>
+                        <h4 className='read-link '>Read More</h4>
+                          
+                        </div>
                     </div>
                     <div className='p-4' >
                         <img src={social} alt="social" />
@@ -73,6 +81,10 @@ const CovidHome = () => {
                     <div className='col-5  align-content-center text-muted' >
                         <h1 className='text-dark mb-4' >Symptoms</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus nulla, sagittis a tempus at, feugiat vel lectus. Cras aliquam augue eget lacus euismod, vel mollis est eleifend. Nulla eros justo, sagittis at orci at, commodo condimentum ex.</p>
+                        <div>
+                        <h4 className='read-link '>Read More</h4>
+                          
+                        </div>
                     </div>
                 </div>
                 <div className='d-flex '>
@@ -101,13 +113,22 @@ const CovidHome = () => {
                     <img src={CallBack} alt="CallBack"  />
                     </div>
                 </div>
+                <div className='d-flex justify-content-between'>
                     <h1 className='ms-5 p-3'>News</h1>
-                <div className='d-flex ms-5' >
+                    <h4 className='me-5'>
+                    Go News Page</h4>
+
+                </div>
+
+                <div style={{height:"600px"}} className='d-flex ms-5' >
                     <div className='sec-last card col-4 text-muted p-3 m-3 '>
                         <img src={Card1} alt="card1" />
                         <p className='p-3 h6'>November 24, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                      </div>
                     </div>
                     
                     <div className=' sec-last card col-4 text-muted p-3 m-3'>
@@ -115,12 +136,19 @@ const CovidHome = () => {
                         <p className='p-3 h6'>November 24, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                        </div>
                     </div>
                     <div className=' sec-last card col-4 text-muted p-3 m-3'>
                         <img src={Card3} alt="card3" />
                         <p className='p-3 h6'>November 24, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                          
+                        </div>
                     </div>
 
                 </div>

@@ -18,12 +18,15 @@ const News = () => {
             <h2 className='p-2 display-4 z-index-1'>#alonetogether</h2>
             <h1 className=' display-2 ms-5 fw-bold text-dark my-5'>Latest News from Coronavirus</h1>
             <div>
-                <div className='d-flex ms-5' >
+                <div style={{height:"600px"}} className='d-flex ms-5' >
                     <div className='sec-last card col-4 text-muted p-3 m-3 '>
                         <img src={Card1} alt="card1" />
                         <p className='p-3 h6'>November 24, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                        </div>
                     </div>
 
                     <div className=' sec-last card col-4 text-muted p-3 m-3'>
@@ -31,23 +34,31 @@ const News = () => {
                         <p className='p-3 h6'>November 24, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                        </div>
                     </div>
                     <div className=' sec-last card col-4 text-muted p-3 m-3'>
                         <img src={Card3} alt="card3" />
                         <p className='p-3 h6'>November 24, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                        </div>
                     </div>
                 </div>
 
 
 
-                <div className='d-flex ms-5' >
+                <div style={{height:"600px"}} className='d-flex ms-5' >
                     <div className='sec-last card col-4 text-muted p-3 m-3 '>
                         <img src={Card4} alt="card1" />
                         <p className='p-3 h6'>November 18, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
-                        <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p> <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                        </div>
                     </div>
 
                     <div className=' sec-last card col-4 text-muted p-3 m-3'>
@@ -55,12 +66,18 @@ const News = () => {
                         <p className='p-3 h6'>November 18, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                        </div>
                     </div>
-                    <div className=' sec-last card col-4 text-muted p-3 m-3'>
+                    <div  className=' sec-last card  col-4 text-muted p-3 m-3'>
                         <img src={Card6} alt="card3" />
                         <p className='p-3 h6'>November 18, 2020</p>
                         <h4 className='text-black p-3'>Unified Command Center Distributes Personal Protection Equipment to Every County</h4>
                         <p className='p-3 h6'>The house opposite commanded a plain view into the room, and observing</p>
+                        <div>
+                        <h4 className='read-link ms-3 '>Read More</h4>
+                        </div>
                     </div>
                 </div>
             </div>
