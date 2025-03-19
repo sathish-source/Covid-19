@@ -1,5 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-weight: 500;
+@import "tailwindcss";
+
+body{
+    font-family: auto;
+}
+
+
+.nav-call{
+    @apply bg-red-600 h-[80px] w-[130px] hover:bg-blue-950 hover:text-white
+}
+
+.mobile-nav{
+   @apply bg-red-600  fixed top-[20%] left-0 w-full h-1/4 text-center
+}
+
+.headerintro{
+    background-image: url('./assets/1-stBackground.jpg');
+}
+
+.callbackimg{
+    background-image: url('./assets/1-stBackground.jpg');
+}
+
+.poppins{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    
+  }
+  .link{
+    color: #2b2c35;
+    position: relative;
+}
+  .link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 30, 0);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover::before{
+    width: 100%;
+    visibility: visible;
+
+}
+.link::before:active{
+    width: 100%;
+    visibility: visible;
+
 }
