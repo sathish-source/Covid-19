@@ -1,8 +1,20 @@
 import HeaderIntrosub from "../HeaderIntrosub"
 import contactimg from '../../assets/Contacts.png'
 import { MdKeyboardArrowRight } from "react-icons/md"
+import { useState } from "react"
 
 const Contact = () => {
+     const [name,setname] = useState('')
+     const [number,setnumber] = useState('')
+     const [email,setemail] = useState('')
+
+        const handleSummit =(e:any) => {
+            e.preventDefault();
+            console.log("Name:",name);
+            console.log("Number:",number);
+            console.log("Email:",email);
+            
+        }
     return (
         <>
             <HeaderIntrosub title="Contact" subtitle="#alonetogether" imgs={contactimg} />
@@ -33,21 +45,21 @@ const Contact = () => {
             <form className="flex my-10 mt-40 md:mt-70 mx-auto flex-col items-center">
                 <h1 className="text-6xl mb-10 text-center">Contact Form</h1>
                 <div className="flex m-4">
-                    <input className="px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="text" placeholder="Name" />
-                    <input className="hidden md:block px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="text" placeholder="*Surname" />
+                    <input value={name} onChange={(e) => setname(e.target.value)} className="px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="text" placeholder="Name" required />
+                    <input className="hidden md:block px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="text" placeholder="*Surname" required />
                 </div>
                 <div className="flex  m-4">
-                    <input className="px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="number" placeholder="Phone" />
-                    <input className="hidden md:block px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="number" placeholder="Phone" />
+                    <input value={number} onChange={(e) => setnumber(e.target.value)} className="px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="number" placeholder="Phone" required />
+                    <input  className="hidden md:block px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="number" placeholder="Phone" required />
                 </div>
                 <div className="flex  m-4">
-                    <input className="px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="email" placeholder="Email Address" />
-                    <input className="hidden md:block px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="email" placeholder="Email Address" />
+                    <input value={email} onChange={(e) => setemail(e.target.value)} className="px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="email" placeholder="Email Address" required />
+                    <input  className="hidden md:block px-15 py-3 mx-2 bg-gray-200 border-0 rounded" type="email" placeholder="Email Address" required />
                 </div>
                 <div className="flex m-4 ms-6">
                     <textarea className=" rounded w-[20rem] md:w-[40.5rem] p-5 placeholder:text-start bg-gray-200" placeholder="Message"></textarea>
                 </div>
-                <button  className="bg-red-700 flex px-8 py-4 text-white text-2xl "><MdKeyboardArrowRight className="h-[2rem] w-[2rem] text-white" />Summit Message</button>
+                <button onClick={handleSummit}  className="bg-red-700 flex px-8 py-4 text-white text-2xl "><MdKeyboardArrowRight className="h-[2rem] w-[2rem] text-white" />Summit Message</button>
                 
             </form>
 
